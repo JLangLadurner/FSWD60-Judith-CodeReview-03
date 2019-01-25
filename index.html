@@ -31,38 +31,43 @@
 				Car Insurance
 			</div>
 	<!-- FormFields ------- start		 -->
-			<form action="index_submit" method="post" accept-charset="utf-8">
+			
 				<div class=coverage>
 					<h1>Great coverage begins with a custom quote</h1>	
 				</div>
-
-				<div id="insertName">
-					<label for="name"> Your Name:</label>
-					<input type="text" id="name" name="user.name">
-				</div>
-				<div id="insertAge">
-					<label for="age"> Age:</label>
-					<input type="text" id="age" name="user.age">
-				</div>
-				<div id="insertCountry">
-					<label for="country"> Country</label>
-					<input type="text" id="country" name="user.country">
-				</div>
-				<div id="insertName">
-					<label for="horsepower"> Horsepower of your car:</label>
-					<input type="text" id="horsepower" name="user.name">
-				</div>
-
-				<div class="button">
-					<button id="btn" type="submit">Calculate</button>	
-				</div>
-				<div id="output">	
-				</div>
-			</form>
+				<form name="myForm" action="" method="get" onsubmit="">
+					<div>
+						<label for="name"> Your Name:</label>
+						<input type="text" id = "name" name="inputName" value="">
+					</div>
+					<div>
+						<label for="age"> Age:</label>
+						<input type="text" id ="age" name="inputAge" value="">
+					</div>
+					<div>
+						<label for="country"> Country</label>
+						<select size = "1" id="country" name = "country"> 
+							<option id = "none" value= "None">Select Country</option>
+ 							<option id ="Austria" value= "Austria">Austria</option>
+  							<option id = "Greece" Value ="Greece">Greece</option>
+  							<option id = "Hungary" value = "Hungary">Hungary</option>
+						</select>	
+  					</div>
+					<div>
+						<label for="horsepower"> Horsepower of your car:</label>
+						<input type="text" id="HP" name="inputHorseP" value="">
+					</div>
+					<div class="button">
+						<input type="button" name="calculate" value ="submit" onClick="processFormData()">
+					</div>
+				</form>
+				<div id="result">
+					</div>
+			</div>
 
 	<!-- formField ------end		 -->
 			<div id="afterText">
-				<h2></h2>Uncomplicated car coverage
+				<h2>Uncomplicated car coverage
 				Understanding your coverage options shouldn't be so hard.
 				We will guide you through available coverage types,
 				starting with who and what is covered.</h2>
@@ -101,16 +106,11 @@
 
 
 		</div>
-
-
-
-
-
-
-
-
 		
 	</div>
 	
+<script src="js/JS_Insurance.js" type="text/javascript" charset="utf-8" async defer></script>
+
+
 </body>
 </html>
