@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title></title>
 	<link rel="stylesheet" href="css/Style01.css">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Staatliches" rel="stylesheet">
 </head>
 <body>
 	<div class="container">
@@ -11,10 +12,10 @@
    	<!-- header section ------start -->
 		<div class = "header">
 			<div id="logoTop">
-			<img src="img/logo_white.png" alt="Logo Insurance">	
+			<img src="img/logo.png" alt="Logo Insurance">	
 			</div>
 			<div id="FS">
-			<a href="https://codefactory.wien/de/home/" target="_blank"><img src="img/banner-1.png" alt="FS banner"></a>	
+			<a href="https://codefactory.wien/de/home/" target="_blank"><img src="img/banner.png" alt="FS banner"></a>	
 			</div>
 		</div>
 	<!-- header section ----end -->
@@ -26,16 +27,16 @@
 			</ul>
 		</nav>
 	<!-- navBar Top -----end	 -->
-		<div class="bgimg">
+		<div id="bgimg">
 			<div id="headline">
 				Car Insurance
 			</div>
 	<!-- FormFields ------- start		 -->
 			
-				<div class=coverage>
-					<h1>Great coverage begins with a custom quote</h1>	
-				</div>
 				<form name="myForm" action="" method="get" onsubmit="">
+					<div class=coverage>
+					Great coverage begins with a custom quote	
+					</div>
 					<div>
 						<label for="name"> Your Name:</label>
 						<input type="text" id = "name" name="inputName" value="">
@@ -58,19 +59,21 @@
 						<input type="text" id="HP" name="inputHorseP" value="">
 					</div>
 					<div class="button">
-						<input type="button" name="calculate" value ="submit" onClick="processFormData()">
+						<input id="btn" type="button" name="calculate" value ="submit" onClick="processFormData()">
 					</div>
-				</form>
 				<div id="result">
-					</div>
+				
+				</form>	</div>
 			</div>
 
 	<!-- formField ------end		 -->
-			<div id="afterText">
-				<h2>Uncomplicated car coverage
-				Understanding your coverage options shouldn't be so hard.
-				We will guide you through available coverage types,
-				starting with who and what is covered.</h2>
+			<div id=wrapperFor>
+				<div id="afterText">
+					<h2>Uncomplicated car coverage
+					Understanding your coverage options shouldn't be so hard.
+					We will guide you through available coverage types,
+					starting with who and what is covered.</h2>
+				</div>
 			</div>
 
 			<div class="rowImg">
@@ -93,7 +96,7 @@
 						</nav>
 					</div>
 					<div class="logoBottom">
-						<img src="img/logo_black.png" alt="">	
+						<img src="img/logo-inv.png" alt="logo">	
 					</div>
 					<div class="copy">
 						Judith - &copy; CodeFactory 2019 
@@ -107,7 +110,7 @@
 
 		</div>
 		
-	</div>
+	
 	
 <script src="js/JS_Insurance.js" type="text/javascript" charset="utf-8" async defer></script>
 

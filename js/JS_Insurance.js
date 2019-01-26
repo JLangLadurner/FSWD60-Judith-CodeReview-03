@@ -27,9 +27,9 @@ function processFormData(){
 
 
 
-	document.getElementById("result").innerHTML="<p> Hi "+ name + "your car insurance is € " + insurance + ".</p";
+	document.getElementById("result").innerHTML="<p> Hi "+ name + " your car insurance is € " + insurance + ".</p";
 
-	console.log("Hi " + name + " your carinsurance is € " + insurance);
+	console.log("Hi " + name + "  your carinsurance is € " + insurance);
 }
 
 
