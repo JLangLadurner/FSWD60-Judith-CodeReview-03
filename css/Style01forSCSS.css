@@ -1,0 +1,254 @@
+.container {
+  margin-left: 2%;
+  width: 80%;
+  float: left;
+  /* background-color: lightgrey; */
+  font-family: 'Libre Franklin', sans-serif; }
+
+.main {
+  background-image: url("../img/traffic1.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 95%;
+  float: left;
+  background-color: #A6A8A5;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px; }
+
+div [class=header] {
+  float: left;
+  height: 100px;
+  width: 100%;
+  background-color: #DFD7DB; }
+
+#logoTop {
+  width: 50%;
+  float: left;
+  margin-left: .5%; }
+
+#FS {
+  width: 30%;
+  float: left;
+  margin-left: 12%; }
+
+div [class=body] {
+  width: 95%;
+  float: left;
+  border: 1px solid black;
+  margin-left: .5%;
+  border-radius: 5px;
+  /* background-color: lightgrey; */
+  padding: 25px; }
+
+/* nav bar top ----- start */
+.header .navTop {
+  clear: right;
+  float: left;
+  width: 100%;
+  padding: 5px 0px 5px 0px;
+  margin-top: 10px; }
+
+.navTop ul {
+  list-style-type: none;
+  margin: 2px 0px 2px 0px;
+  overflow: hidden;
+  background-color: #660E0E;
+  padding: 5px 5px 5px 5px; }
+
+.navTop li {
+  display: inline; }
+
+.navTop li a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+.navTop li a:hover {
+  background-color: darkgrey;
+  color: black; }
+
+/* nav bar top ----- end */
+div [id=headline] {
+  width: 38%;
+  font-size: 48px;
+  /* border: 1px solid black; */
+  text-align: left;
+  color: white;
+  text-shadow: 1px 1px 0 black; }
+
+/* img row ---- coverage --- start */
+.rowImg {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 25%; }
+
+#pix1 {
+  box-shadow: 0 2px 2px white;
+  border: 1px solid #296104;
+  border-radius: 5px;
+  width: 200px;
+  height: 200px; }
+
+#pix2 {
+  box-shadow: 0 2px 2px white;
+  border: 1px solid #296104;
+  border-radius: 5px;
+  width: 200px;
+  height: 200px; }
+
+/* img row ------coverage ---- end */
+/* form styling - Box width big start */
+input[type=text], select {
+  border: 0;
+  outline: 0;
+  padding: 1em;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  margin-left: 1em;
+  box-shadow: 0 1px 1px black;
+  resize: none; }
+
+input[id=btn] {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 8px;
+  margin-left: 15%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px; }
+
+input[id=btn]:hover {
+  background-color: #45a049; }
+
+div [id=form] {
+  float: left;
+  border: 1px solid black;
+  width: 48%;
+  background-color: #CCC;
+  opacity: 0.9;
+  border-radius: 5px;
+  margin-left: 30%; }
+
+label {
+  float: left;
+  width: 10em;
+  margin-right: 1em; }
+
+.half {
+  float: left;
+  width: 100%;
+  margin-bottom: 1em; }
+
+.right {
+  width: 150px;
+  margin-right: 10%; }
+
+.left {
+  width: 150px;
+  margin-right: 10%; }
+
+.cf::before,
+.cf::after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.cf::after {
+  clear: both; }
+
+form {
+  margin-left: 20%; }
+
+/* form styling - Box width big start */
+#wrapperFor {
+  width: 100%;
+  float: left;
+  background-color: grey; }
+
+#afterText {
+  float: left;
+  margin-left: 200px;
+  width: 50%;
+  text-align: center;
+  margin-left: 30%; }
+
+.coverage {
+  width: 80%;
+  color: #3A1E2C;
+  text-shadow: 1px 1px 0 lightgoldenrodyellow;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-right: 50px;
+  text-align: center; }
+
+#result {
+  width: 100%;
+  height: auto;
+  text-align: left;
+  font-size: 24px;
+  display: inline-block;
+  color: green; }
+
+/* nav bottom ----- start */
+.navBottom {
+  float: left;
+  width: 100%;
+  padding: 5px 0px 5px 0px;
+  margin-top: 10px;
+  width: 85%; }
+
+.navBottom ul {
+  list-style-type: none;
+  margin: 5px 0px 5px 0px;
+  overflow: hidden;
+  background-color: black;
+  padding: 5px 5px 5px 5px; }
+
+.navBottom li {
+  display: inline; }
+
+.navBottom li a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+.navBottom li a:hover {
+  background-color: darkgrey;
+  color: black; }
+
+.footer {
+  float: left;
+  width: 100%;
+  background-color: black;
+  color: white; }
+
+.copy {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px; }
+
+.logoBottom {
+  float: right;
+  width: 15%;
+  margin-top: 2%; }
+
+  /* + Portrait */
+
+  @media screen and (min-width: 750px) 
+{
+    #form {width: 100px; float: left;}
+    .main {margin-left:200px;}
+}
+
+/*# sourceMappingURL=Style01forSCSS.css.map */
