@@ -5,6 +5,7 @@
 	<title></title>
 	<link rel="stylesheet" href="css/Style01.css">
 	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Staatliches" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<div class="container">
@@ -22,21 +23,28 @@
 	<!-- navBar Top start -->
 		<nav class="navTop">
 			<ul>
-				<li><a href="#" title="Home">Home</a></li>
-				<li><a href="#" title="Team">Team</a></li>
+				<li><a href="index.html" title="Home">Home</a></li>
+				<li><a href="team.html" title="Team">Team</a></li>
 			</ul>
 		</nav>
+	
 	<!-- navBar Top -----end	 -->
-		<div id="bgimg">
-			<div id="headline">
-				Car Insurance
-			</div>
+		
+		<div class="main">
+				<div id="headline">
+					Car Insurance
+				</div>	
+	
+		<div class="body">
+
+			<div id="form">
 	<!-- FormFields ------- start		 -->
 			
-				<form name="myForm" action="" method="get" onsubmit="">
+				<form class= "cf" name="myForm" action="" method="get" onsubmit="">
 					<div class=coverage>
-					Great coverage begins with a custom quote	
+					Great coverage begins <br> with a custom quote	
 					</div>
+					<div class="half left cf">
 					<div>
 						<label for="name"> Your Name:</label>
 						<input type="text" id = "name" name="inputName" value="">
@@ -45,6 +53,8 @@
 						<label for="age"> Age:</label>
 						<input type="text" id ="age" name="inputAge" value="">
 					</div>
+					</div>
+					<div class="half right cf">
 					<div>
 						<label for="country"> Country</label>
 						<select size = "1" id="country" name = "country"> 
@@ -58,13 +68,17 @@
 						<label for="horsepower"> Horsepower of your car:</label>
 						<input type="text" id="HP" name="inputHorseP" value="">
 					</div>
+					</div>
 					<div class="button">
-						<input id="btn" type="button" name="calculate" value ="submit" onClick="processFormData()">
+						<input id="btn" type="button" name="calculate" value ="calculate" onClick="processFormData()">
 					</div>
 				<div id="result">
-				
-				</form>	</div>
+				</div>
+				</form>
 			</div>
+		</div>
+		</div>
+			
 
 	<!-- formField ------end		 -->
 			<div id=wrapperFor>
@@ -74,15 +88,15 @@
 					We will guide you through available coverage types,
 					starting with who and what is covered.</h2>
 				</div>
-			</div>
 
 			<div class="rowImg">
 				<div class="img">
-					<img id="pix1"src="img/addCoverage.png" alt="Coverage">	
+					<img id="pix1"src="img/coverage2.png" alt="Coverage">	
 				</div>
 				<div class="img" >
-					<img id="pix2" src="img/coverage2.png" alt="Coverage">	
+					<img id="pix2" src="img/addCoverage.png" alt="Coverage">	
 				</div>
+			</div>
 			</div>
 
 			<div class="footer">
@@ -90,8 +104,8 @@
 					<div>
 						<nav class="navBottom">
 							<ul>
-								<li><a href="#" title="Home">Home</a></li>
-								<li><a href="" title="Team">Team</a></li>
+								<li><a href="index.html" title="Home">Home</a></li>
+								<li><a href="team.html" title="Team">Team</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -105,7 +119,7 @@
 				
 			</div>
 
-
+		
 
 
 		</div>

@@ -1,0 +1,154 @@
+.container {
+  margin-left: 2%;
+  width: 80%;
+  float: left;
+  background-color: lightgrey;
+  font-family: 'Libre Franklin', sans-serif;
+}
+.main {
+  background-image: url("../img/traffic1.jpg");
+  background-size: 100%;
+  opacity: 0.9;
+  background-repeat: no-repeat;
+  width: 95%;
+  float: left;
+  background-color: #A6A8A5;
+  width: 100%;
+  border:1px solid black;
+  border-radius: 5px;
+}
+
+div{
+  width:100%;
+  height: 100%;
+}
+
+div [class=header] {
+  float: left;
+  height: 100px;
+  width: 100%;
+  background-color: #DFD7DB;
+}
+
+#logoTop {
+  
+  width: 50%;
+  float: left;
+  margin-left: .5%;
+
+}
+
+#FS {
+
+  width: 30%;
+  float: left;
+  margin-left: 12%;
+}
+
+/* nav Top ----- start !!! */
+
+.header .navTop{
+  clear: right;
+  float: left;
+  width: 100%;
+  padding: 5px 0px 5px 0px;
+  margin-top: 10px;
+}
+
+.navTop ul {
+  list-style-type: none;
+  margin: 2px 0px 2px 0px;
+  overflow: hidden;
+  background-color: #660E0E;
+  padding: 5px 5px 5px 5px;
+}
+
+.navTop li {
+  display: inline;
+}
+
+.navTop li a {
+ color: white;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+.navTop li a:hover {
+  background-color: darkgrey;
+  color: black;
+}
+
+
+#pix{
+
+  width:  150px;
+  height: 125px;
+}
+
+#team {
+float: left;
+width: 18%;
+border-radius: 5px;
+margin-left: 30%;
+color: white;
+}
+
+
+
+
+
+
+/* Nav Bottom -----start!! */
+.navBottom{
+  float: left;
+  width: 100%;
+  padding: 5px 0px 5px 0px;
+  margin-top: 10px;
+  width: 85%;
+}
+
+.navBottom ul {
+  list-style-type: none;
+  margin: 5px 0px 5px 0px;
+  overflow: hidden;
+  background-color: black;
+  padding: 5px 5px 5px 5px;
+
+}
+
+.navBottom  li {
+  display: inline;
+}
+
+.navBottom li a {
+ color: white;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+.navBottom li a:hover {
+  background-color: darkgrey;
+  color: black;
+}
+
+.footer{
+  float: left;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.copy {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.logoBottom {
+ float: right;
+ width: 15%;
+ margin-top: 2%
+
+}
+

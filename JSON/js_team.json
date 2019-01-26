@@ -1,0 +1,25 @@
+var data = [{
+
+"firstName":"Fran",
+
+"email":"fran@index.com",
+
+"image": "./img/fran.jpg",
+
+}, {
+
+"firstName":"Bill",
+
+"email":"bill@index.com",
+
+"image": "./img/bill.jpg",
+
+}, {
+
+"firstName":"Fritz",
+
+"email":"fritz@index.com",
+
+"image": "./img/fritz.jpg",
+
+} ];
