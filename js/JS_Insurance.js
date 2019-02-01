@@ -1,5 +1,22 @@
 
-function processFormData(){
+
+	var name_element = document.getElementById("name");
+	var name = name_element.value;
+	var age_element = document.getElementById("age");
+	var age = age_element.value;
+	var horsepower = document.getElementById("HP");
+	var horse = horsepower.value;
+	var selected_index =myForm.elements["country"].selectedIndex;
+
+	function validateForm(){
+
+	if (name= null || name=="", age==null || age=="", horse==null || horse=="", selected_index == null || selected_index =="") {
+
+	alert("Please Fill All Required Fields");
+	return false
+	}
+
+	else function processFormData(){
 
 	var name_element = document.getElementById("name");
 	var name = name_element.value;
@@ -10,13 +27,14 @@ function processFormData(){
 
 	var selected_index =myForm.elements["country"].selectedIndex;
 
-	if (selected_index == 'Austria') {
+
+	if (selected_index == 1) {
 
 			 var insurance = Math.round(Number(horse)*100/Number(age)+50);
 
 	}
 
-	else if (selected_index == 'Greece')
+	else if (selected_index == 2)
 	{
 		var insurance = Math.round(Number(horse)*120/Number(age)+100);
 	}
@@ -29,7 +47,8 @@ function processFormData(){
 
 	document.getElementById("result").innerHTML="<p> Hi "+ name + " your car insurance is € " + insurance + ".</p";
 
-	console.log("Hi " + name + "  your carinsurance is € " + insurance);
+	console.log("Hi " + name + "<p>  your carinsurance is € " + insurance+ " and you live in " + selected_index + "</p");
+}
 }
 
 

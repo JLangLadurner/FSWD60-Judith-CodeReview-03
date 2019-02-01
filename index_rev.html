@@ -1,0 +1,129 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="css/Style01_rev.css">
+		<link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Staatliches" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div class="container">
+		<!-- container for all content -->
+	   	<!-- header section ------start -->
+			<div class = "header">
+				<div id="logoTop">
+				<img src="img/logo.png" alt="Logo Insurance">	
+				</div>
+				<div id="FS">
+				<a href="https://codefactory.wien/de/home/" target="_blank"><img src="img/banner.png" alt="FS banner"></a>	
+				</div>
+			</div>
+		<!-- header section ----end -->
+		<!-- navBar Top start -->
+			<nav class="navTop">
+				<ul>
+					<li><a href="index.html" title="Home">Home</a></li>
+					<li><a href="team.html" title="Team">Team</a></li>
+				</ul>
+			</nav>
+		
+		<!-- navBar Top -----end	 -->
+			
+			<div class="main">
+					<div id="headline">
+						Car Insurance
+					</div>
+
+				<div id="overlay">
+		<!-- FormFields ------- start		 -->
+					<div class=coverage>
+						Great coverage begins <br> with a custom quote	
+						</div>	
+					<form class= "cf" name="myForm" action="" method="get" onsubmit="">
+						<div class="input_F_left">	
+						<div id="lefty_1">
+							<label for="name"> Your Name:</label>
+							<input type="text" id = "name" name="inputName" value="">
+						</div>
+						<div id="lefty_2">
+							<label for="country"> Country:</label>
+							<select size = "1" id="country" name = "country"> 
+								<option id = "none" value= "None">Select Country</option>
+	 							<option id ="Austria" value= "Austria">Austria</option>
+	  							<option id = "Greece" Value ="Greece">Greece</option>
+	  							<option id = "Hungary" value = "Hungary">Hungary</option>
+							</select>	
+	  					</div>
+	  					</div >
+	  					<div class="inputF_right">
+	  					<div id="righty_1">
+							<label for="age"> Your Age:</label>
+							<input type="text" id ="age" name="inputAge" value="">
+						</div>
+						<div id="righty_2">
+							<label for="horsepower"> Horsepower car:</label>
+							<input type="text" id="HP" name="inputHorseP" value="">
+						</div>
+						</div>
+						</form>
+						<div class="button">
+							<input id="btn" type="button" name="calculate" value ="calculate" onClick="validateForm()">
+						</div>
+					<div id="result">
+					</div>
+					</form>
+				</div>
+			</div>
+				
+
+		<!-- formField ------end		 -->
+				
+				<div id="afterText">
+						<h2>Uncomplicated car coverage</h2>
+						Understanding your coverage options shouldn't be so hard.
+						We will guide you through available coverage types,
+						starting with who and what is covered.
+				</div>
+
+				<div class="rowImg">
+					<div class="img">
+						<img id="pix1"src="img/coverage2.png" alt="Coverage">	
+					</div>
+					<div class="img" >
+						<img id="pix2" src="img/addCoverage.png" alt="Coverage">	
+					</div>
+				</div>
+
+				<div class="footer">
+					<footer>
+						<div>
+							<nav class="navBottom">
+								<ul>
+									<li><a href="index.html" title="Home">Home</a></li>
+									<li><a href="team.html" title="Team">Team</a></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="logoBottom">
+							<img src="img/logo-inv.png" alt="logo">	
+						</div>
+						<div class="copy">
+							Judith - &copy; CodeFactory 2019 
+						</div>
+					</footer>
+					
+				</div>
+
+			
+
+
+			</div>
+			
+		
+		
+	<script src="js/JS_Insurance.js" type="text/javascript" charset="utf-8" async defer></script>
+
+
+	</body>
+	</html>
