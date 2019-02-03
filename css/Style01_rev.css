@@ -1,6 +1,7 @@
 
-body {
-	margin: 2.5% ;
+body{
+	width: 80%;
+	margin-left: 20%;
 }
 
 .container {
@@ -170,6 +171,9 @@ div [class=inputF_right] {
 .cf label {
 	margin: 50px 10px 5px 0;
 }
+input:required {
+	background-color: darkgrey;
+}
 
 
 
@@ -278,7 +282,8 @@ h2 {
 /* nav bottom ----- start */
 
 .navBottom{
-	float: left;
+	display: flex;
+	flex-direction: column;
 	width: 100%;
 	padding: 5px 0px 5px 0px;
 	margin-top: 10px;
@@ -310,26 +315,28 @@ h2 {
 }
 
 .footer{
-	float: left;
+	display: flex;
+	flex-direction: column;
 	width: 100%;
 	background-color: black;
 	color: white;
 }
 
 .copy {
-	float: left;
+	display: flex;
+	flex-direction: column;
 	width: 100%;
 	text-align: center;
 	margin-bottom: 10px;
 }
 
 .logoBottom {
- float: right;
- width: 15%;
- margin-top: 2%
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+ 	width: 98%;
 
 }
-
 
 
 

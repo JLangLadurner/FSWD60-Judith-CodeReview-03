@@ -1,22 +1,6 @@
 
 
-	var name_element = document.getElementById("name");
-	var name = name_element.value;
-	var age_element = document.getElementById("age");
-	var age = age_element.value;
-	var horsepower = document.getElementById("HP");
-	var horse = horsepower.value;
-	var selected_index =myForm.elements["country"].selectedIndex;
-
-	function validateForm(){
-
-	if (name= null || name=="", age==null || age=="", horse==null || horse=="", selected_index == null || selected_index =="") {
-
-	alert("Please Fill All Required Fields");
-	return false
-	}
-
-	else function processFormData(){
+	function processFormData(){
 
 	var name_element = document.getElementById("name");
 	var name = name_element.value;

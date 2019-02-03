@@ -1,11 +1,16 @@
 
+var team =[];
 
+		function teams (data){
+			team.push(data)
+		}
 
-	for (i=0; i < data.length; i++){
+		for (var i=0; i<data.length; i++){
 
-		var json = data[i];
-		var team = "<br>" +json.firstName+ "<br>" + json.email + "<br>" + "<img id='pix'src='"+json.image+"'>" + "<br>";
+			var employee = data[i];
 
-		document.getElementById("team").innerHTML += team +"<br>";
+			document.getElementById("team").innerHTML += "<div><img id='pix'src='" + employee.image + "'>" + "<br><p>" + employee.firstName + "<br>" + employee.email + "</p></div>";
 
-	}
+		}	
+
+		document.addEventListener('DOMContentLoaded',function(){teams(employee[i])}, false);
