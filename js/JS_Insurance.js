@@ -8,7 +8,7 @@ function processFormData(){
 	var horsepower = document.getElementById("HP");
 	var horse = horsepower.value;
 
-	var selected_index =myForm.elements["country"].selectedIndex;
+	var selected_index =myForm.elements["country"].selectedIndex.value;
 
 	if (selected_index == 'Austria') {
 
