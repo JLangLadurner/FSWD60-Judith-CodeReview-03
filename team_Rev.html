@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Team Site</title>
-	<link rel="stylesheet" href="css/Style02.css">
+	<link rel="stylesheet" href="css/team_Rev.css">
 	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Staatliches" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -28,14 +28,18 @@
 			</ul>
 		</nav>
 	<div class ="main">
-
+		<div class="teamOverlay">
+		<h2>Our Team</h2>
 	 <div id="images">
 	 	<div id="team">
 	 		
-	 	</div>
-	 	
+	 	</div>	
 	 </div>
+		</div>
 	</div>
+	<div class="bottom_Decor">
+	 <h1>Feel Free to Contact us !!	</h1>
+	 </div>
 	<div class="footer">
 				<footer>
 					<div>
@@ -57,20 +61,8 @@
 			</div>
 		</div>
 
-<script src="JSON/js_team.json" type="text/javascript" charset="utf-8" async defer></script>
-<script>
-	
-	for (i=0; i < data.length; i++){
-
-		var json = data[i];
-		var team = "<br>" +json.firstName+ "<br>" + json.email + "<br>" + "<img id='pix'src='"+json.image+"'>" + "<br>";
-
-		document.getElementById("team").innerHTML += team +"<br>";
-
-
-	}
-</script>
-
+<script src="JSON/data.json" type="text/javascript"></script>
+<script src="js/js_team.js" type="text/javascript" charset="utf-8" async defer></script>
 
 </body>
 </html>
